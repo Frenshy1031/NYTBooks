@@ -1,0 +1,63 @@
+.logo-position{
+    align-self: center;
+    color: white;
+    font-family: 'Aguafina Script', cursive;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.nav {
+    padding-right: 50px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+    font-family: 'Aguafina Script', cursive;
+    font-size: 18px;
+    
+}
+
+nav-link {
+    display: block;
+    padding: .8rem 1rem;
+}
+.nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-family: 'Aguafina Script', cursive;
+    background-color: white;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 7.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'Aguafina Script', cursive;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Aguafina Script', cursive;
+    font-size: 21px;
+}
